@@ -897,20 +897,10 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
 <height-observer variable="header">
   <store-header class="header" hide-on-scroll="100" sticky="">
     <div class="header__wrapper"><div class="header__main-nav">
-        <div class="header__icon-list">
-          <button type="button" class="tap-area lg:hidden" aria-controls="header-sidebar-menu">
-            <span class="sr-only">Menu</span><svg role="presentation" stroke-width="2" focusable="false" width="22" height="22" class="icon icon-hamburger" viewBox="0 0 22 22">
-        <path d="M1 5h20M1 11h20M1 17h20" stroke="currentColor" stroke-linecap="round"></path>
-      </svg></button>
-
-          <a href="/search" class="tap-area sm:hidden" aria-controls="search-drawer">
-            <span class="sr-only">Search</span><svg role="presentation" stroke-width="2" focusable="false" width="22" height="22" class="icon icon-search" viewBox="0 0 22 22">
-        <circle cx="11" cy="10" r="7" fill="none" stroke="currentColor"></circle>
-        <path d="m16 15 3 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg></a><nav class="header__link-list justify-center wrap" role="navigation">
-             
-            </nav></div>
-      </div><h1 class="header__logo">
+     
+      </div>
+      
+      <h1 class="header__logo">
           <a href="/"><span class="sr-only">MedStudentNotes</span><img src="images/MedStudentNotes.com_Logo_a330d795-0710-42ff-97e5-c97cf7f091cd.png" alt="MedStudentNotes.com Logo" srcset="images/MedStudentNotes.com_Logo_a330d795-0710-42ff-97e5-c97cf7f091cd_1.png 440w, images/MedStudentNotes.com_Logo_a330d795-0710-42ff-97e5-c97cf7f091cd_2.png 660w" width="1754" height="268" sizes="220px" class="header__logo-image"><img src="images/MedStudentNotes.com_Logo_White.png" alt="MedStudentNotes.com Logo" srcset="images/MedStudentNotes.com_Logo_White_1.png 440w, images/MedStudentNotes.com_Logo_White_2.png 660w" width="1709" height="261" sizes="220px" class="header__logo-image header__logo-image--transparent"></a>
         </h1>
       
@@ -930,6 +920,7 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
       </div>
     </div>
   </store-header>
+  
 </height-observer><navigation-drawer mobile-opening="left" open-from="left" id="header-sidebar-menu" class="navigation-drawer drawer lg:hidden">
     <button is="close-button" aria-label="Close"><svg role="presentation" stroke-width="2" focusable="false" width="19" height="19" class="icon icon-close" viewBox="0 0 24 24">
         <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
@@ -975,727 +966,20 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
         <div class="h-stack gap-2"><span class="country-flags country-flags--AU"></span><span class="bold text-sm">AUD $</span>
         </div><svg role="presentation" focusable="false" width="10" height="7" class="icon icon-chevron-bottom" viewBox="0 0 10 7">
         <path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="2"></path>
-      </svg></button>
+      </svg></button> 
 
-      <x-popover id="popover-localization-form-country--sections--18608215130369__header" initial-focus="[aria-selected='true']" anchor-horizontal="end" anchor-vertical="start" class="popover">
-        <p class="h5" slot="title">Country</p><form method="post" action="/localization" id="localization-form-country--sections--18608215130369__header" accept-charset="UTF-8" class="shopify-localization-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization"><input type="hidden" name="utf8" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="return_to" value="/"><x-listbox class="popover-listbox popover-listbox--sm" role="listbox"><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AF">
-                <span class="country-flags country-flags--AF"></span>
-                <span>Afghanistan (AFN ؋)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AX">
-                <span class="country-flags country-flags--AX"></span>
-                <span>Åland Islands (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AL">
-                <span class="country-flags country-flags--AL"></span>
-                <span>Albania (ALL L)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="DZ">
-                <span class="country-flags country-flags--DZ"></span>
-                <span>Algeria (DZD د.ج)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AD">
-                <span class="country-flags country-flags--AD"></span>
-                <span>Andorra (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AO">
-                <span class="country-flags country-flags--AO"></span>
-                <span>Angola (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AI">
-                <span class="country-flags country-flags--AI"></span>
-                <span>Anguilla (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AG">
-                <span class="country-flags country-flags--AG"></span>
-                <span>Antigua & Barbuda (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AR">
-                <span class="country-flags country-flags--AR"></span>
-                <span>Argentina (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AM">
-                <span class="country-flags country-flags--AM"></span>
-                <span>Armenia (AMD դր.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AW">
-                <span class="country-flags country-flags--AW"></span>
-                <span>Aruba (AWG ƒ)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AC">
-                <span class="country-flags country-flags--AC"></span>
-                <span>Ascension Island (SHP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AU" aria-selected="true">
-                <span class="country-flags country-flags--AU"></span>
-                <span>Australia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AT">
-                <span class="country-flags country-flags--AT"></span>
-                <span>Austria (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AZ">
-                <span class="country-flags country-flags--AZ"></span>
-                <span>Azerbaijan (AZN ₼)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BS">
-                <span class="country-flags country-flags--BS"></span>
-                <span>Bahamas (BSD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BH">
-                <span class="country-flags country-flags--BH"></span>
-                <span>Bahrain (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BD">
-                <span class="country-flags country-flags--BD"></span>
-                <span>Bangladesh (BDT ৳)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BB">
-                <span class="country-flags country-flags--BB"></span>
-                <span>Barbados (BBD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BY">
-                <span class="country-flags country-flags--BY"></span>
-                <span>Belarus (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BE">
-                <span class="country-flags country-flags--BE"></span>
-                <span>Belgium (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BZ">
-                <span class="country-flags country-flags--BZ"></span>
-                <span>Belize (BZD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BJ">
-                <span class="country-flags country-flags--BJ"></span>
-                <span>Benin (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BM">
-                <span class="country-flags country-flags--BM"></span>
-                <span>Bermuda (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BT">
-                <span class="country-flags country-flags--BT"></span>
-                <span>Bhutan (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BO">
-                <span class="country-flags country-flags--BO"></span>
-                <span>Bolivia (BOB Bs.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BA">
-                <span class="country-flags country-flags--BA"></span>
-                <span>Bosnia & Herzegovina (BAM КМ)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BW">
-                <span class="country-flags country-flags--BW"></span>
-                <span>Botswana (BWP P)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BR">
-                <span class="country-flags country-flags--BR"></span>
-                <span>Brazil (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IO">
-                <span class="country-flags country-flags--IO"></span>
-                <span>British Indian Ocean Territory (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="VG">
-                <span class="country-flags country-flags--VG"></span>
-                <span>British Virgin Islands (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BN">
-                <span class="country-flags country-flags--BN"></span>
-                <span>Brunei (BND $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BG">
-                <span class="country-flags country-flags--BG"></span>
-                <span>Bulgaria (BGN лв.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BF">
-                <span class="country-flags country-flags--BF"></span>
-                <span>Burkina Faso (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BI">
-                <span class="country-flags country-flags--BI"></span>
-                <span>Burundi (BIF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KH">
-                <span class="country-flags country-flags--KH"></span>
-                <span>Cambodia (KHR ៛)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CM">
-                <span class="country-flags country-flags--CM"></span>
-                <span>Cameroon (XAF CFA)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CA">
-                <span class="country-flags country-flags--CA"></span>
-                <span>Canada (CAD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CV">
-                <span class="country-flags country-flags--CV"></span>
-                <span>Cape Verde (CVE $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BQ">
-                <span class="country-flags country-flags--BQ"></span>
-                <span>Caribbean Netherlands (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KY">
-                <span class="country-flags country-flags--KY"></span>
-                <span>Cayman Islands (KYD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CF">
-                <span class="country-flags country-flags--CF"></span>
-                <span>Central African Republic (XAF CFA)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TD">
-                <span class="country-flags country-flags--TD"></span>
-                <span>Chad (XAF CFA)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CL">
-                <span class="country-flags country-flags--CL"></span>
-                <span>Chile (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CN">
-                <span class="country-flags country-flags--CN"></span>
-                <span>China (CNY ¥)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CX">
-                <span class="country-flags country-flags--CX"></span>
-                <span>Christmas Island (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CC">
-                <span class="country-flags country-flags--CC"></span>
-                <span>Cocos (Keeling) Islands (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CO">
-                <span class="country-flags country-flags--CO"></span>
-                <span>Colombia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KM">
-                <span class="country-flags country-flags--KM"></span>
-                <span>Comoros (KMF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CG">
-                <span class="country-flags country-flags--CG"></span>
-                <span>Congo - Brazzaville (XAF CFA)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CD">
-                <span class="country-flags country-flags--CD"></span>
-                <span>Congo - Kinshasa (CDF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CK">
-                <span class="country-flags country-flags--CK"></span>
-                <span>Cook Islands (NZD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CR">
-                <span class="country-flags country-flags--CR"></span>
-                <span>Costa Rica (CRC ₡)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CI">
-                <span class="country-flags country-flags--CI"></span>
-                <span>Côte d’Ivoire (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="HR">
-                <span class="country-flags country-flags--HR"></span>
-                <span>Croatia (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CW">
-                <span class="country-flags country-flags--CW"></span>
-                <span>Curaçao (ANG ƒ)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CY">
-                <span class="country-flags country-flags--CY"></span>
-                <span>Cyprus (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CZ">
-                <span class="country-flags country-flags--CZ"></span>
-                <span>Czechia (CZK Kč)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="DK">
-                <span class="country-flags country-flags--DK"></span>
-                <span>Denmark (DKK kr.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="DJ">
-                <span class="country-flags country-flags--DJ"></span>
-                <span>Djibouti (DJF Fdj)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="DM">
-                <span class="country-flags country-flags--DM"></span>
-                <span>Dominica (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="DO">
-                <span class="country-flags country-flags--DO"></span>
-                <span>Dominican Republic (DOP $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="EC">
-                <span class="country-flags country-flags--EC"></span>
-                <span>Ecuador (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="EG">
-                <span class="country-flags country-flags--EG"></span>
-                <span>Egypt (EGP ج.م)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SV">
-                <span class="country-flags country-flags--SV"></span>
-                <span>El Salvador (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GQ">
-                <span class="country-flags country-flags--GQ"></span>
-                <span>Equatorial Guinea (XAF CFA)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ER">
-                <span class="country-flags country-flags--ER"></span>
-                <span>Eritrea (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="EE">
-                <span class="country-flags country-flags--EE"></span>
-                <span>Estonia (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SZ">
-                <span class="country-flags country-flags--SZ"></span>
-                <span>Eswatini (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ET">
-                <span class="country-flags country-flags--ET"></span>
-                <span>Ethiopia (ETB Br)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="FK">
-                <span class="country-flags country-flags--FK"></span>
-                <span>Falkland Islands (FKP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="FO">
-                <span class="country-flags country-flags--FO"></span>
-                <span>Faroe Islands (DKK kr.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="FJ">
-                <span class="country-flags country-flags--FJ"></span>
-                <span>Fiji (FJD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="FI">
-                <span class="country-flags country-flags--FI"></span>
-                <span>Finland (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="FR">
-                <span class="country-flags country-flags--FR"></span>
-                <span>France (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GF">
-                <span class="country-flags country-flags--GF"></span>
-                <span>French Guiana (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PF">
-                <span class="country-flags country-flags--PF"></span>
-                <span>French Polynesia (XPF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TF">
-                <span class="country-flags country-flags--TF"></span>
-                <span>French Southern Territories (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GA">
-                <span class="country-flags country-flags--GA"></span>
-                <span>Gabon (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GM">
-                <span class="country-flags country-flags--GM"></span>
-                <span>Gambia (GMD D)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GE">
-                <span class="country-flags country-flags--GE"></span>
-                <span>Georgia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="DE">
-                <span class="country-flags country-flags--DE"></span>
-                <span>Germany (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GH">
-                <span class="country-flags country-flags--GH"></span>
-                <span>Ghana (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GI">
-                <span class="country-flags country-flags--GI"></span>
-                <span>Gibraltar (GBP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GR">
-                <span class="country-flags country-flags--GR"></span>
-                <span>Greece (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GL">
-                <span class="country-flags country-flags--GL"></span>
-                <span>Greenland (DKK kr.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GD">
-                <span class="country-flags country-flags--GD"></span>
-                <span>Grenada (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GP">
-                <span class="country-flags country-flags--GP"></span>
-                <span>Guadeloupe (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GT">
-                <span class="country-flags country-flags--GT"></span>
-                <span>Guatemala (GTQ Q)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GG">
-                <span class="country-flags country-flags--GG"></span>
-                <span>Guernsey (GBP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GN">
-                <span class="country-flags country-flags--GN"></span>
-                <span>Guinea (GNF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GW">
-                <span class="country-flags country-flags--GW"></span>
-                <span>Guinea-Bissau (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GY">
-                <span class="country-flags country-flags--GY"></span>
-                <span>Guyana (GYD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="HT">
-                <span class="country-flags country-flags--HT"></span>
-                <span>Haiti (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="HN">
-                <span class="country-flags country-flags--HN"></span>
-                <span>Honduras (HNL L)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="HK">
-                <span class="country-flags country-flags--HK"></span>
-                <span>Hong Kong SAR (HKD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="HU">
-                <span class="country-flags country-flags--HU"></span>
-                <span>Hungary (HUF Ft)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IS">
-                <span class="country-flags country-flags--IS"></span>
-                <span>Iceland (ISK kr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IN">
-                <span class="country-flags country-flags--IN"></span>
-                <span>India (INR ₹)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ID">
-                <span class="country-flags country-flags--ID"></span>
-                <span>Indonesia (IDR Rp)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IQ">
-                <span class="country-flags country-flags--IQ"></span>
-                <span>Iraq (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IE">
-                <span class="country-flags country-flags--IE"></span>
-                <span>Ireland (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IM">
-                <span class="country-flags country-flags--IM"></span>
-                <span>Isle of Man (GBP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IL">
-                <span class="country-flags country-flags--IL"></span>
-                <span>Israel (ILS ₪)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="IT">
-                <span class="country-flags country-flags--IT"></span>
-                <span>Italy (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="JM">
-                <span class="country-flags country-flags--JM"></span>
-                <span>Jamaica (JMD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="JP">
-                <span class="country-flags country-flags--JP"></span>
-                <span>Japan (JPY ¥)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="JE">
-                <span class="country-flags country-flags--JE"></span>
-                <span>Jersey (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="JO">
-                <span class="country-flags country-flags--JO"></span>
-                <span>Jordan (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KZ">
-                <span class="country-flags country-flags--KZ"></span>
-                <span>Kazakhstan (KZT ₸)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KE">
-                <span class="country-flags country-flags--KE"></span>
-                <span>Kenya (KES KSh)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KI">
-                <span class="country-flags country-flags--KI"></span>
-                <span>Kiribati (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="XK">
-                <span class="country-flags country-flags--XK"></span>
-                <span>Kosovo (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KW">
-                <span class="country-flags country-flags--KW"></span>
-                <span>Kuwait (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KG">
-                <span class="country-flags country-flags--KG"></span>
-                <span>Kyrgyzstan (KGS som)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LA">
-                <span class="country-flags country-flags--LA"></span>
-                <span>Laos (LAK ₭)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LV">
-                <span class="country-flags country-flags--LV"></span>
-                <span>Latvia (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LB">
-                <span class="country-flags country-flags--LB"></span>
-                <span>Lebanon (LBP ل.ل)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LS">
-                <span class="country-flags country-flags--LS"></span>
-                <span>Lesotho (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LR">
-                <span class="country-flags country-flags--LR"></span>
-                <span>Liberia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LY">
-                <span class="country-flags country-flags--LY"></span>
-                <span>Libya (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LI">
-                <span class="country-flags country-flags--LI"></span>
-                <span>Liechtenstein (CHF CHF)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LT">
-                <span class="country-flags country-flags--LT"></span>
-                <span>Lithuania (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LU">
-                <span class="country-flags country-flags--LU"></span>
-                <span>Luxembourg (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MO">
-                <span class="country-flags country-flags--MO"></span>
-                <span>Macao SAR (MOP P)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MG">
-                <span class="country-flags country-flags--MG"></span>
-                <span>Madagascar (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MW">
-                <span class="country-flags country-flags--MW"></span>
-                <span>Malawi (MWK MK)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MY">
-                <span class="country-flags country-flags--MY"></span>
-                <span>Malaysia (MYR RM)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MV">
-                <span class="country-flags country-flags--MV"></span>
-                <span>Maldives (MVR MVR)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ML">
-                <span class="country-flags country-flags--ML"></span>
-                <span>Mali (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MT">
-                <span class="country-flags country-flags--MT"></span>
-                <span>Malta (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MQ">
-                <span class="country-flags country-flags--MQ"></span>
-                <span>Martinique (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MR">
-                <span class="country-flags country-flags--MR"></span>
-                <span>Mauritania (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MU">
-                <span class="country-flags country-flags--MU"></span>
-                <span>Mauritius (MUR ₨)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="YT">
-                <span class="country-flags country-flags--YT"></span>
-                <span>Mayotte (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MX">
-                <span class="country-flags country-flags--MX"></span>
-                <span>Mexico (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MD">
-                <span class="country-flags country-flags--MD"></span>
-                <span>Moldova (MDL L)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MC">
-                <span class="country-flags country-flags--MC"></span>
-                <span>Monaco (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MN">
-                <span class="country-flags country-flags--MN"></span>
-                <span>Mongolia (MNT ₮)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ME">
-                <span class="country-flags country-flags--ME"></span>
-                <span>Montenegro (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MS">
-                <span class="country-flags country-flags--MS"></span>
-                <span>Montserrat (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MA">
-                <span class="country-flags country-flags--MA"></span>
-                <span>Morocco (MAD د.م.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MZ">
-                <span class="country-flags country-flags--MZ"></span>
-                <span>Mozambique (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MM">
-                <span class="country-flags country-flags--MM"></span>
-                <span>Myanmar (Burma) (MMK K)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NA">
-                <span class="country-flags country-flags--NA"></span>
-                <span>Namibia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NR">
-                <span class="country-flags country-flags--NR"></span>
-                <span>Nauru (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NP">
-                <span class="country-flags country-flags--NP"></span>
-                <span>Nepal (NPR Rs.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NL">
-                <span class="country-flags country-flags--NL"></span>
-                <span>Netherlands (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NC">
-                <span class="country-flags country-flags--NC"></span>
-                <span>New Caledonia (XPF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NZ">
-                <span class="country-flags country-flags--NZ"></span>
-                <span>New Zealand (NZD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NI">
-                <span class="country-flags country-flags--NI"></span>
-                <span>Nicaragua (NIO C$)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NE">
-                <span class="country-flags country-flags--NE"></span>
-                <span>Niger (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NG">
-                <span class="country-flags country-flags--NG"></span>
-                <span>Nigeria (NGN ₦)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NU">
-                <span class="country-flags country-flags--NU"></span>
-                <span>Niue (NZD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NF">
-                <span class="country-flags country-flags--NF"></span>
-                <span>Norfolk Island (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MK">
-                <span class="country-flags country-flags--MK"></span>
-                <span>North Macedonia (MKD ден)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="NO">
-                <span class="country-flags country-flags--NO"></span>
-                <span>Norway (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="OM">
-                <span class="country-flags country-flags--OM"></span>
-                <span>Oman (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PK">
-                <span class="country-flags country-flags--PK"></span>
-                <span>Pakistan (PKR ₨)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PS">
-                <span class="country-flags country-flags--PS"></span>
-                <span>Palestinian Territories (ILS ₪)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PA">
-                <span class="country-flags country-flags--PA"></span>
-                <span>Panama (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PG">
-                <span class="country-flags country-flags--PG"></span>
-                <span>Papua New Guinea (PGK K)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PY">
-                <span class="country-flags country-flags--PY"></span>
-                <span>Paraguay (PYG ₲)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PE">
-                <span class="country-flags country-flags--PE"></span>
-                <span>Peru (PEN S/)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PH">
-                <span class="country-flags country-flags--PH"></span>
-                <span>Philippines (PHP ₱)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PN">
-                <span class="country-flags country-flags--PN"></span>
-                <span>Pitcairn Islands (NZD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PL">
-                <span class="country-flags country-flags--PL"></span>
-                <span>Poland (PLN zł)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PT">
-                <span class="country-flags country-flags--PT"></span>
-                <span>Portugal (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="QA">
-                <span class="country-flags country-flags--QA"></span>
-                <span>Qatar (QAR ر.ق)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="RE">
-                <span class="country-flags country-flags--RE"></span>
-                <span>Réunion (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="RO">
-                <span class="country-flags country-flags--RO"></span>
-                <span>Romania (RON Lei)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="RU">
-                <span class="country-flags country-flags--RU"></span>
-                <span>Russia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="RW">
-                <span class="country-flags country-flags--RW"></span>
-                <span>Rwanda (RWF FRw)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="WS">
-                <span class="country-flags country-flags--WS"></span>
-                <span>Samoa (WST T)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SM">
-                <span class="country-flags country-flags--SM"></span>
-                <span>San Marino (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ST">
-                <span class="country-flags country-flags--ST"></span>
-                <span>São Tomé & Príncipe (STD Db)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SA">
-                <span class="country-flags country-flags--SA"></span>
-                <span>Saudi Arabia (SAR ر.س)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SN">
-                <span class="country-flags country-flags--SN"></span>
-                <span>Senegal (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="RS">
-                <span class="country-flags country-flags--RS"></span>
-                <span>Serbia (RSD РСД)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SC">
-                <span class="country-flags country-flags--SC"></span>
-                <span>Seychelles (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SL">
-                <span class="country-flags country-flags--SL"></span>
-                <span>Sierra Leone (SLL Le)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SG">
-                <span class="country-flags country-flags--SG"></span>
-                <span>Singapore (SGD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SX">
-                <span class="country-flags country-flags--SX"></span>
-                <span>Sint Maarten (ANG ƒ)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SK">
-                <span class="country-flags country-flags--SK"></span>
-                <span>Slovakia (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SI">
-                <span class="country-flags country-flags--SI"></span>
-                <span>Slovenia (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SB">
-                <span class="country-flags country-flags--SB"></span>
-                <span>Solomon Islands (SBD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SO">
-                <span class="country-flags country-flags--SO"></span>
-                <span>Somalia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ZA">
-                <span class="country-flags country-flags--ZA"></span>
-                <span>South Africa (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GS">
-                <span class="country-flags country-flags--GS"></span>
-                <span>South Georgia & South Sandwich Islands (GBP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KR">
-                <span class="country-flags country-flags--KR"></span>
-                <span>South Korea (KRW ₩)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SS">
-                <span class="country-flags country-flags--SS"></span>
-                <span>South Sudan (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ES">
-                <span class="country-flags country-flags--ES"></span>
-                <span>Spain (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LK">
-                <span class="country-flags country-flags--LK"></span>
-                <span>Sri Lanka (LKR ₨)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="BL">
-                <span class="country-flags country-flags--BL"></span>
-                <span>St. Barthélemy (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SH">
-                <span class="country-flags country-flags--SH"></span>
-                <span>St. Helena (SHP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="KN">
-                <span class="country-flags country-flags--KN"></span>
-                <span>St. Kitts & Nevis (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="LC">
-                <span class="country-flags country-flags--LC"></span>
-                <span>St. Lucia (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="MF">
-                <span class="country-flags country-flags--MF"></span>
-                <span>St. Martin (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="PM">
-                <span class="country-flags country-flags--PM"></span>
-                <span>St. Pierre & Miquelon (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="VC">
-                <span class="country-flags country-flags--VC"></span>
-                <span>St. Vincent & Grenadines (XCD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SD">
-                <span class="country-flags country-flags--SD"></span>
-                <span>Sudan (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SR">
-                <span class="country-flags country-flags--SR"></span>
-                <span>Suriname (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SJ">
-                <span class="country-flags country-flags--SJ"></span>
-                <span>Svalbard & Jan Mayen (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="SE">
-                <span class="country-flags country-flags--SE"></span>
-                <span>Sweden (SEK kr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="CH">
-                <span class="country-flags country-flags--CH"></span>
-                <span>Switzerland (CHF CHF)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TW">
-                <span class="country-flags country-flags--TW"></span>
-                <span>Taiwan (TWD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TJ">
-                <span class="country-flags country-flags--TJ"></span>
-                <span>Tajikistan (TJS ЅМ)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TZ">
-                <span class="country-flags country-flags--TZ"></span>
-                <span>Tanzania (TZS Sh)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TH">
-                <span class="country-flags country-flags--TH"></span>
-                <span>Thailand (THB ฿)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TL">
-                <span class="country-flags country-flags--TL"></span>
-                <span>Timor-Leste (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TG">
-                <span class="country-flags country-flags--TG"></span>
-                <span>Togo (XOF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TK">
-                <span class="country-flags country-flags--TK"></span>
-                <span>Tokelau (NZD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TO">
-                <span class="country-flags country-flags--TO"></span>
-                <span>Tonga (TOP T$)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TT">
-                <span class="country-flags country-flags--TT"></span>
-                <span>Trinidad & Tobago (TTD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TA">
-                <span class="country-flags country-flags--TA"></span>
-                <span>Tristan da Cunha (GBP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TN">
-                <span class="country-flags country-flags--TN"></span>
-                <span>Tunisia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TR">
-                <span class="country-flags country-flags--TR"></span>
-                <span>Türkiye (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TM">
-                <span class="country-flags country-flags--TM"></span>
-                <span>Turkmenistan (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TC">
-                <span class="country-flags country-flags--TC"></span>
-                <span>Turks & Caicos Islands (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="TV">
-                <span class="country-flags country-flags--TV"></span>
-                <span>Tuvalu (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="UM">
-                <span class="country-flags country-flags--UM"></span>
-                <span>U.S. Outlying Islands (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="UG">
-                <span class="country-flags country-flags--UG"></span>
-                <span>Uganda (UGX USh)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="UA">
-                <span class="country-flags country-flags--UA"></span>
-                <span>Ukraine (UAH ₴)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="AE">
-                <span class="country-flags country-flags--AE"></span>
-                <span>United Arab Emirates (AED د.إ)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="GB">
-                <span class="country-flags country-flags--GB"></span>
-                <span>United Kingdom (GBP £)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="US">
-                <span class="country-flags country-flags--US"></span>
-                <span>United States (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="UY">
-                <span class="country-flags country-flags--UY"></span>
-                <span>Uruguay (UYU $U)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="UZ">
-                <span class="country-flags country-flags--UZ"></span>
-                <span>Uzbekistan (UZS so'm)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="VU">
-                <span class="country-flags country-flags--VU"></span>
-                <span>Vanuatu (VUV Vt)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="VA">
-                <span class="country-flags country-flags--VA"></span>
-                <span>Vatican City (EUR €)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="VE">
-                <span class="country-flags country-flags--VE"></span>
-                <span>Venezuela (USD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="VN">
-                <span class="country-flags country-flags--VN"></span>
-                <span>Vietnam (VND ₫)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="WF">
-                <span class="country-flags country-flags--WF"></span>
-                <span>Wallis & Futuna (XPF Fr)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="EH">
-                <span class="country-flags country-flags--EH"></span>
-                <span>Western Sahara (MAD د.م.)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="YE">
-                <span class="country-flags country-flags--YE"></span>
-                <span>Yemen (YER ﷼)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ZM">
-                <span class="country-flags country-flags--ZM"></span>
-                <span>Zambia (AUD $)</span>
-              </button><button type="submit" class="popover-listbox__option" name="country_code" role="option" value="ZW">
-                <span class="country-flags country-flags--ZW"></span>
-                <span>Zimbabwe (USD $)</span>
-              </button></x-listbox></form></x-popover>
     </div><a href="/account" class="panel-footer__account-link bold text-sm">Account</a></div></div></div>
   </div></div></navigation-drawer><script>
   document.documentElement.style.setProperty('--header-height', Math.round(document.getElementById('shopify-section-sections--18608215130369__header').clientHeight) + 'px');
 </script>
 
 </header>
+
+   <div class="prose justify-items-center text-center"><p class="h4 hyphenate"><span class="text-custom " style="--text-color: 250 0 0;">Why Study The HARD Way?</span></p><div><h4><strong>Study </strong><em><strong>SMARTER</strong></em><strong>, not HARDER with MedStudentNotes! 👇</strong></h4></div>
+
+<div></div></div>
+
+            
 <!-- END sections: header-group --><!-- BEGIN sections: overlay-group -->
 <div id="shopify-section-sections--18608215163137__newsletter-popup" class="shopify-section shopify-section-group-overlay-group shopify-section--popup"><newsletter-popup id="newsletter-drawer" open-from="right" class="drawer newsletter-drawer" only-once="" apparition-delay="15" handle-section-events="">
       <button is="close-button" aria-label="Close" class="sm-max:hidden"><svg role="presentation" stroke-width="2" focusable="false" width="19" height="19" class="icon icon-close" viewBox="0 0 24 24">
@@ -1837,6 +1121,7 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
       </svg><svg class="slideshow__cursor-ring" viewBox="-28 -28 56 56" width="56" height="56" fill="none" stroke="currentColor" stroke-width="2">
           <circle r="27" stroke-dasharray="158.33626974092556" stroke-dashoffset="158.33626974092556px"></circle>
         </svg>
+      
       </custom-cursor><a id="block-72c0578a-9638-4218-9982-efe3f35e7be1" href="https://superprofile.bio/vp/dive-into-udemy-courses-like-never-before-?checkout=true" class="slideshow__slide is-selected" data-slide-type="image" role="group"><div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 400px; --content-over-media-overlay: 0 0 0 / 0.0"><picture><source media="(max-width: 699px)" srcset="images/2_2599fd25-a9e3-4380-8568-67dd612bfa17_3.jpg 400w, images/2_2599fd25-a9e3-4380-8568-67dd612bfa17_2.jpg 600w, images/2_2599fd25-a9e3-4380-8568-67dd612bfa17_1.jpg 800w, images/2_2599fd25-a9e3-4380-8568-67dd612bfa17_4.jpg 1000w, images/2_2599fd25-a9e3-4380-8568-67dd612bfa17.jpg 1200w" width="1200" height="1600"><img src="images/2_20763ffb-57fe-4719-a21e-758739402903.jpg" alt="" srcset="images/2_20763ffb-57fe-4719-a21e-758739402903_11.jpg 200w, images/2_20763ffb-57fe-4719-a21e-758739402903_6.jpg 300w, images/2_20763ffb-57fe-4719-a21e-758739402903_10.jpg 400w, images/2_20763ffb-57fe-4719-a21e-758739402903_8.jpg 500w, images/2_20763ffb-57fe-4719-a21e-758739402903_12.jpg 600w, images/2_20763ffb-57fe-4719-a21e-758739402903_9.jpg 700w, images/2_20763ffb-57fe-4719-a21e-758739402903_15.jpg 800w, images/2_20763ffb-57fe-4719-a21e-758739402903_13.jpg 900w, images/2_20763ffb-57fe-4719-a21e-758739402903_1.jpg 1000w, images/2_20763ffb-57fe-4719-a21e-758739402903_14.jpg 1200w, images/2_20763ffb-57fe-4719-a21e-758739402903_4.jpg 1400w, images/2_20763ffb-57fe-4719-a21e-758739402903_5.jpg 1600w, images/2_20763ffb-57fe-4719-a21e-758739402903_7.jpg 1800w, images/2_20763ffb-57fe-4719-a21e-758739402903_16.jpg 2000w, images/2_20763ffb-57fe-4719-a21e-758739402903_3.jpg 2200w, images/2_20763ffb-57fe-4719-a21e-758739402903_2.jpg 2400w, images/2_20763ffb-57fe-4719-a21e-758739402903_17.jpg 2600w, images/2_20763ffb-57fe-4719-a21e-758739402903.jpg 2800w" width="2800" height="1000" loading="eager" fetchpriority="high" sizes="100vw"></picture><div class="place-self-start-center text-center sm:place-self-start-center sm:text-center  text-custom" style="--text-color: 255 255 255;">
             <div class="prose"></div>
           </div>
@@ -1876,7 +1161,10 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
 
   <div class="section   section-blends section-full"><div class="rich-text justify-center ">
       <div class="rich-text__wrapper">
-        <div class="prose justify-items-center text-center"><p class="h4 hyphenate"><span class="text-custom " style="--text-color: 250 0 0;">Why Study The HARD Way?</span></p><div><h4><strong>Study </strong><em><strong>SMARTER</strong></em><strong>, not HARDER with MedStudentNotes! 👇</strong></h4></div>
+        <div class="prose justify-items-center text-center"><p class="h4 hyphenate">
+     
+
+
 <a class="button button--xl" style="--button-background: 250 0 0 / var(--button-background-opacity, 1);--button-outline-color: 250 0 0;" href="https://superprofile.bio/vp/dive-into-udemy-courses-like-never-before-?checkout=true">Get 80% OFF Our BUNDLE DEAL!</a>
 <div><h5>ESSENTIAL For All <a href="/collections/all" target="_blank" title="All Our Items">MBBS, MD, MBChB, USMLE, PA, & Nursing Students!</a></h5></div></div>
       </div>
@@ -2140,7 +1428,7 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
               <div class="rating-with-text"><price-list class="price-list price-list--lg "><sale-price class="text-lg text-on-sale">
       <span class="sr-only">Sale price</span><span class="money conversion-bear-money">$47.00 AUD</span></sale-price><compare-at-price class="text-subdued line-through">
         <span class="sr-only">Regular price</span><span class="money conversion-bear-money">$335.00 AUD</span></compare-at-price></price-list><div class="product-info__badge-list"><on-sale-badge class="badge badge--on-sale">Save <span class="money conversion-bear-money">$288.00</span></on-sale-badge></div></div></div></div><div class="product-info__block-item" data-block-id="buy_buttons_zGY8H9" data-block-type="buy-buttons"><div class="product-info__buy-buttons"><form method="post" action="/cart/add" id="featured-product-form-template--18608214540545__featured_product_ceghi7" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" is="product-form"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓"><input type="hidden" name="id" value="34445957071005"><div class="v-stack gap-4"><buy-buttons class="buy-buttons buy-buttons--multiple" template="" form="featured-product-form-template--18608214540545__featured_product_ceghi7">
-<button type="submit" class="button button--xl button--secondary" is="custom-button">Add to cart</button><div data-shopify="payment-button" class="shopify-payment-button"> <shopify-accelerated-checkout recommended="{" name":"shop_pay","wallet_params":{"shopid":32871350410,"merchantname":"medstudentnotes"}}"="" fallback="{" name":"buy_it_now","wallet_params":{}}"="" access-token="96d7d610ad345f4a18d635541c1f4c07" buyer-country="AU" buyer-locale="en" buyer-currency="AUD" variant-params="[{" id":34445957071005,"requiresshipping":false}]"="" shop-id="32871350410"> <div class="shopify-payment-button__button" role="button" disabled="" aria-hidden="true" style="background-color: transparent; border: none">  </div>  </shopify-accelerated-checkout>  </div><style>
+<button type="submit" class="button button--xl button--secondary" is="custom-button">BUY NOW @299</button><div data-shopify="payment-button" class="shopify-payment-button"> <shopify-accelerated-checkout recommended="{" name":"shop_pay","wallet_params":{"shopid":32871350410,"merchantname":"medstudentnotes"}}"="" fallback="{" name":"buy_it_now","wallet_params":{}}"="" access-token="96d7d610ad345f4a18d635541c1f4c07" buyer-country="AU" buyer-locale="en" buyer-currency="AUD" variant-params="[{" id":34445957071005,"requiresshipping":false}]"="" shop-id="32871350410"> <div class="shopify-payment-button__button" role="button" disabled="" aria-hidden="true" style="background-color: transparent; border: none">  </div>  </shopify-accelerated-checkout>  </div><style>
           #featured-product-form-template--18608214540545__featured_product_ceghi7 .shopify-payment-button {--button-background: 250 0 0;}
         </style></buy-buttons>
   </div><input type="hidden" name="product-id" value="5246976262301"><input type="hidden" name="section-id" value="template--18608214540545__featured_product_ceghi7"></form></div></div><div class="product-info__block-item" data-block-id="description_EfgA66" data-block-type="description"><div class="product-info__description">
@@ -2150,7 +1438,7 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
 <p><strong style="font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 1.4em;">(DELIVERED INSTANTLY TO YOUR INBOX IN PDF FORMAT)</strong></p>
 <p><strong><meta charset="utf-8">Content Volume:<span> <span style="color: rgb(255, 0, 0);">Approx. 4000</span></span><span style="color: rgb(255, 0, 0);"> pages</span></strong></p>
 <p><strong></strong><strong>What’s included:</strong><span> </span>Ready-to-study anatomy, physiology and pathology summaries of <strong>ALL</strong> of the bodily systems; plus clinical examinations, investigations, cellular biology, genetics, mental health and much much more! <br></p>
-<p><strong>Individual Subjects In This Bundle:</strong></p>
+<p style="font-size: 19px;"><strong>Individual Subjects In This Bundle:</strong></p>
 <ol>
 <li><strong><a href="https://www.medstudentnotes.com/collections/our-notes/products/cardiovascular-system-notes" target="_blank">Cardiovascular</a></strong></li>
 <li><strong><a href="https://www.medstudentnotes.com/collections/our-notes/products/the-respiratory-system-notes" target="_blank">Respiratory</a></strong></li>
@@ -2174,10 +1462,12 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
 <li><strong>Clinical Investigations</strong></li>
 <li><strong>Preparing for OSCEs</strong></li>
 </ol>
-<p> </p>
-<p><meta charset="utf-8"><strong>Need to see samples before you buy?... <a rel="noopener" title="Free Samples" href="https://www.medstudentnotes.com/pages/sample-downloads" target="_blank">Click here.</a> </strong></p>
-<p><strong><meta charset="utf-8">(<span>EXISTING CUSTOMERS:</span> To upgrade your previously purchased individual subjects to the bundle deal,<span> </span><a href="https://www.medstudentnotes.com/pages/bundle-upgrade-process" target="_blank">CLICK HERE for instructions!</a>)</strong></p>
-<p><em>Please note that this bundle deal is already maximally discounted and is therefore not eligible for further discounts.</em> :)<em>  </em></p></div>
+<p> </p> 
+
+
+
+
+</div>
               </div></div></safe-sticky></div>
   </product-rerender>
 </div>
@@ -2296,13 +1586,7 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
     }
   </style>
 
-  <div class="section   section-full bg-custom text-custom" style="--background: 6 6 35; --text-color: 255 255 255;"><div class="rich-text justify-center ">
-      <div class="rich-text__wrapper">
-        <div class="prose justify-items-center text-center"><p class="h5 hyphenate"><span class="text-custom " style="--text-color: 240 237 23;">🤔 Did You Know... 'Memory' & 'Recall' are NOT the Same!</span></p><div><h2><strong>Conquering Exams </strong><em><strong>ALSO</strong></em><strong> Requires </strong><em><strong>Practice</strong></em><strong>!</strong></h2><h5><strong>🧠 We Tailored </strong><a href="/collections/practice-exams" target="_blank" title="Practice Exams"><strong>Our Practice Exams</strong></a><strong> to BOOST Your '</strong><em><strong>Exam-Brain</strong></em><strong>' Synapses!</strong></h5><h6><strong>🛑 </strong><a href="/collections/practice-exams" target="_blank" title="Practice Exams"><strong>DO NOT Sit Your Med Exams Without Them!</strong></a><strong> 👇</strong></h6></div>
-<a class="button button--xl" style="--button-background: 250 0 0 / var(--button-background-opacity, 1);--button-outline-color: 250 0 0;" href="/products/practice-exams-value-pack">Get Our 80% OFF Practice Exam Pack!</a>
-</div>
-      </div>
-    </div>
+ 
   </div></section><section id="shopify-section-template--18608214540545__featured_product_Umy9XP" class="shopify-section shopify-section--featured-product"><style>
   #shopify-section-template--18608214540545__featured_product_Umy9XP {
     --section-background-hash: 0;
@@ -2779,86 +2063,9 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
   }
 </style>
 
-<div class="section   section-boxed bg-custom" style="--background: 255 255 255;">
-  <div class="section-stack section-stack--horizontal "><div class="section-stack__intro">
-        <div class="v-stack gap-10"><div class="prose "><h2 class="h2">Common Questions</h2><p>For the full list of FAQ's, <a href="/pages/faqs" target="_blank" title="FAQ's"><strong>click here.</strong></a></p></div><div class="hidden lg:block"><div class="faq-availability"><div class="v-stack gap-4"><div class="v-stack">Email us anytime: admin@examfuel.co.in  🤓<span class="text-subdued">Response time: 0-4hrs (We sleep too)</span></div></div></div></div></div>
-      </div><div class="section-stack__main">
-        <div class="accordion-box rounded bg-secondary"><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>How do I purchase?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
 
-  <div class="accordion__content"><div class="prose"><p><strong>1. Add </strong><a href="https://www.medstudentnotes.com/collections/our-notes" target="_blank" title="Our Notes"><strong>Subjects</strong></a><strong> to your cart.</strong></p><ul><li>(We recommend our<strong> </strong><a href="https://www.medstudentnotes.comhttps://superprofile.bio/vp/dive-into-udemy-courses-like-never-before-?checkout=true" target="_blank" title="ALL OF OUR NOTES IN ONE BUNDLE"><strong>BUNDLE DEAL</strong></a><strong> </strong>AND our<strong> </strong><a href="https://www.medstudentnotes.com/products/practice-exams-value-pack" target="_blank" title="PRACTICE EXAMS PACK"><strong>PRACTICE EXAM PACK</strong></a>!)</li></ul><p><strong>2. Proceed to checkout.</strong></p><ul><li><em>(We accept all popular payment methods.)</em></li></ul><p><strong>3. Get your private access link via email, then download & save your notes.</strong></p><ul><li>(<em>If you don't receive this email, let us know at admin@examfuel.co.in </em>)</li></ul><p><strong>🍃ALL ITEMS ARE DIGITAL ONLY.</strong></p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>How do I pay?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
 
-  <div class="accordion__content"><div class="prose"><p>Our checkout accepts all <strong>Visa</strong>, <strong>Mastercard</strong>, <strong>Amex</strong>, <strong>JCB</strong> & <strong>UnionPay</strong> cards, as well as <strong>PayPal</strong>, <strong>GooglePay</strong>, <strong>ApplePay</strong>, <strong>AfterPay</strong>, <strong>WeChat</strong> Pay, <strong>AliPay</strong>, <strong>Paysera</strong>, <strong>GoPay</strong> & many more. For more payment methods, please click the ‘<strong>Other Cards</strong>…’ option in our checkout. </p><p>If you are having trouble paying by card, you might need to double check with your bank or card provider that you have online international transactions enabled on that card.</p><p>You may also need to try on a desktop computer rather than a phone and also disable any VPN that you have running.</p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>Do I get lifetime access?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
-
-  <div class="accordion__content"><div class="prose"><p><strong>Yes. </strong>All customers receive lifetime access to their notes, as well as any future editions of those previously purchased subjects.</p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>Can I buy subjects individually?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
-
-  <div class="accordion__content"><div class="prose"><p>Absolutely you can! You are free to pick and choose any of the <a href="/collections/our-notes" target="_blank" title="Study Notes"><strong>Study Notes </strong></a>and <a href="/collections/practice-exams" target="_blank" title="Practice Exams"><strong>Practice Exams</strong></a> that you wish. </p><p>Simply add what you want to your online cart and then proceed through the checkout. </p><p>You can always <a href="/pages/bundle-upgrade-process" target="_blank" title="BUNDLE UPGRADE PROCESS"><strong>upgrade</strong></a> to the <a href="https://superprofile.bio/vp/dive-into-udemy-courses-like-never-before-?checkout=true" target="_blank" title="ALL SUBJECTS (80% OFF BUNDLE)"><strong>Bundle Deal</strong></a> or <a href="/products/practice-exams-value-pack" target="_blank" title="ALL 15 EXAMS (80% OFF)"><strong>Practice Exam Pack</strong></a> later. </p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>Can I upgrade to the Bundle Deal?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
-
-  <div class="accordion__content"><div class="prose"><p><strong>Yes. If you have previously purchased individual notes or exams but wish to upgrade to the 80%-Off Bundle Deals, follow these 3 steps:</strong></p><ol><li>Purchase the <a href="https://www.medstudentnotes.comhttps://superprofile.bio/vp/dive-into-udemy-courses-like-never-before-?checkout=true" target="_blank"><strong>Bundle Deal</strong></a> or <a href="/products/practice-exams-value-pack" target="_blank" title="ALL 15 EXAMS (80% OFF)"><strong>Exam Pack</strong></a><strong>,</strong></li><li>Then email us your order number to admin@examfuel.co.in </li><li>We will then cross-reference your previous orders and refund any duplicates back to you within 24hrs. (Please note, the total refund value cannot exceed the bundle deal value)</li></ol><p>If you have any further questions, please feel free to email us at <strong>admin@examfuel.co.in  </strong></p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>Can I get physical copies?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
-
-  <div class="accordion__content"><div class="prose"><p>All notes are secured PDF files that are delivered in digital format only. We believe a paper-free approach offers the best experience for our customers, because it ensures immediate delivery, versatility across multiple devices, enables selective printing if desired, keeps our prices affordable, and is most environmentally friendly. </p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>Can I see samples?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
-
-  <div class="accordion__content"><div class="prose"><p>Sure, you can view sample downloads of all our subjects <a href="https://www.medstudentnotes.com/pages/sample-downloads"><strong>here</strong></a><strong>!</strong></p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>Do you have other languages?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
-
-  <div class="accordion__content"><div class="prose"><p>Currently all of our notes are in English only, however, many document translators can help translate our notes into your preferred language. We would recommend GoogleDocs for this: <a href="https://support.google.com/docs/answer/187189?hl=en&co=GENIE.Platform%3DDesktop">https://support.google.com/docs/answer/187189?hl=en&co=GENIE.Platform%3DDesktop</a> </p></div></div>
-</details><details class=" accordion  group" aria-expanded="false" is="accordion-disclosure">
-  <summary><div class="accordion__toggle bold"><span>Can I share my notes?</span><span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate"><svg role="presentation" focusable="false" width="8" height="6" class="icon icon-chevron-bottom-small" viewBox="0 0 8 6">
-        <path d="m1 1.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      </svg></span>
-    </div>
-  </summary>
-
-  <div class="accordion__content"><div class="prose"><p><strong>No.</strong> All of our files are share-protected and if we detect sharing of documents, those documents will be automatically locked and your download access will be suspended indefinitely.</p><p>A better option is for you to join our <a href="https://affiliates.medstudentnotes.com/" title="Ambassador's Program"><strong>Ambassador's Program</strong></a> and <strong>refer</strong> your friends to us and earn a <strong>30% commission</strong> on any notes they purchase. Plus, your referral code gives them a 15% discount on all displayed prices. <strong>Win-Win!</strong> :) To learn more, <a href="https://affiliates.medstudentnotes.com/" title="Ambassador's Program">click here</a>.</p></div></div>
-</details></div>
-      </div><div class="lg:hidden"><div class="faq-availability"><div class="v-stack gap-4"><div class="v-stack">Email us anytime: admin@examfuel.co.in  🤓<span class="text-subdued">Response time: 0-4hrs (We sleep too)</span></div></div></div></div>
-  </div>
-</div><script type="application/ld+json">
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -3061,7 +2268,8 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
         <path d="m.75 7 3-3-3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
       </svg></button>
       </div></div></form></div>
-                </div><div class="footer__block footer__block--menu"><p class="bold">Footer menu</p><ul class="v-stack gap-3" role="list"><li>
+                </div>
+                <div class="footer__block footer__block--menu"><p class="bold">Footer menu</p><ul class="v-stack gap-3" role="list"><li>
                           <a href="/search" class="inline-block link-faded break-all">Search</a>
                         </li><li>
                           <a href="/pages/contact-us" class="inline-block link-faded break-all">Contact</a>
@@ -3074,21 +2282,13 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
                         </li><li>
                           <a href="/pages/sample-downloads" class="inline-block link-faded break-all">Samples</a>
                         </li></ul>
-                  </div><div class="footer__block footer__block--menu"><p class="bold">Main menu</p><ul class="v-stack gap-3" role="list"><li>
-                          <a href="/" class="inline-block link-faded break-all">Home</a>
-                        </li><li>
-                          
-                          <a href="/collections/our-notes" class="inline-block link-faded break-all">Study Notes</a>
-                        </li><li>
-                          <a href="/collections/practice-exam-subjects" class="inline-block link-faded break-all">Exams</a>
-                        </li><li>
-                          <a href="/pages/testimonials" class="inline-block link-faded break-all">Testimonials</a>
-                        </li><li>
-                          <a href="/pages/faqs" class="inline-block link-faded break-all">FAQ's</a>
-                        </li><li>
-                          <a href="https://affiliates.medstudentnotes.com/" class="inline-block link-faded break-all">Affiliates</a>
-                        </li></ul>
-                  </div><div class="footer__block footer__block--text"><p class="bold">About</p><div class="prose text-subdued"><p>Our mission is to empower time-poor medical students by streamlining their studies & preventing 'burn-out' so they can excel as future clinicians. </p></div></div></div><div class="footer__aside empty:hidden"><div class="footer__aside-top"><ul class="social-media " role="list"><li>
+                  </div>
+                  
+                  
+              
+                  
+                  
+                  <div class="footer__block footer__block--text"><p class="bold">About</p><div class="prose text-subdued"><p>Our mission is to empower time-poor medical students by streamlining their studies & preventing 'burn-out' so they can excel as future clinicians. </p></div></div></div><div class="footer__aside empty:hidden"><div class="footer__aside-top"><ul class="social-media " role="list"><li>
       <a href="https://www.facebook.com/MedStudentNotesOnline/" class="tap-area" target="_blank" rel="noopener" aria-label="Follow on Facebook"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-facebook" viewBox="0 0 24 24">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M10.183 21.85v-8.868H7.2V9.526h2.983V6.982a4.17 4.17 0 0 1 4.44-4.572 22.33 22.33 0 0 1 2.667.144v3.084h-1.83a1.44 1.44 0 0 0-1.713 1.68v2.208h3.423l-.447 3.456h-2.97v8.868h-3.57Z" fill="currentColor"></path>
       </svg></a>
